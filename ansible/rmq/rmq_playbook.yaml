@@ -29,8 +29,8 @@
        - name: Add initial user
          become: yes
          shell: |
-            rabbitmq add_user aionno Welcome1
-            rabbitmq set_user_tags aionno administrator
+            rabbitmqctl add_user aionno Genatsval1
+            rabbitmqctl set_user_tags aionno administrator
 
             
     
