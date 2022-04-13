@@ -29,7 +29,7 @@
        - name: Add initial user
          become: yes
          shell: |
-            rabbitmqctl add_user aionno Genatsval1
+            rabbitmqctl add_user aionno password
             rabbitmqctl set_user_tags aionno administrator
 
             
